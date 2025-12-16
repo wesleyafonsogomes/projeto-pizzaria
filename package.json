@@ -1,0 +1,21 @@
+{
+  "name": "projeto-pizzaria",
+  "version": "1.0.0",
+  "description": "CRUD de uma pizzaria utilizando handlebars/engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyafonsogomes/projeto-pizzaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wesleyafonsogomes/projeto-pizzaria/issues"
+  },
+  "homepage": "https://github.com/wesleyafonsogomes/projeto-pizzaria#readme"
+}
