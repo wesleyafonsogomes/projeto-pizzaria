@@ -4,7 +4,8 @@
   "description": "CRUD de uma pizzaria utilizando handlebars/engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/wesleyafonsogomes/projeto-pizzaria/issues"
   },
-  "homepage": "https://github.com/wesleyafonsogomes/projeto-pizzaria#readme"
+  "homepage": "https://github.com/wesleyafonsogomes/projeto-pizzaria#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.4",
+    "nodemon": "^3.1.11"
+  }
 }

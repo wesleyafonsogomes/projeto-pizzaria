@@ -1,0 +1,18 @@
+<h2>Pedidos Recebidos</h2>
+
+{{#if pedidos}}
+<ul>
+    {{#each pedidos}}
+    <li>
+        <h3>{{this.pizza}}</h3>
+        <p>{{this.tamanho}}</p>
+        <p>{{this.nome}}</p>
+        <p>{{this.telefone}}</p>
+    </li>
+    <hr> {{/each}}
+</ul>
+{{else}}
+    <p>Nenhum pedido realizado no momento.</p>
+{{/if}}
+
+<a href="/fazer-pedido"><input type="button" value="Novo Pedido"></a>

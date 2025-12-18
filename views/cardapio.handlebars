@@ -1,0 +1,23 @@
+
+<ul>
+    {{#each pizzas}}
+    <li>
+        <h3>{{nome}} - ({{this.categoria}})</h3>
+        <p>Ingredientes: {{ingredientes}}</p>
+        <p>Preços (P): R$ {{this.tamanhos.pequena}} | (M): R$ {{this.tamanhos.media}} | (G): R$ {{this.tamanhos.grande}}</p>
+
+        <p>
+            Status:
+            {{#if this.disponivel}}
+            <span id="disponivel">Disponível</span>
+            {{else}}
+            <span id="esgotadad">Esgotada</span>
+            {{/if}}
+        </p>
+
+        <a href="/pizza-detalhes/{{this.id}}">
+            <input type="button" value="Ver Detalhes">
+        </a>
+    </li>
+    {{/each}}
+</ul>
